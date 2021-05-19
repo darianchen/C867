@@ -1,0 +1,7 @@
+﻿  main.cpp
+  roster.cpp
+  student.cpp
+C:\Users\91973\Desktop\Scripting and Programming - Applications – C867\Scripting and Programming - Applications – C867\roster.h(23,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\91973\Desktop\Scripting and Programming - Applications – C867\Scripting and Programming - Applications – C867\roster.h(23,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\91973\Desktop\Scripting and Programming - Applications – C867\Scripting and Programming - Applications – C867\roster.h(23,30): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
