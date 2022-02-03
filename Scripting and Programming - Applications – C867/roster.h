@@ -17,11 +17,11 @@ public:
 	void PrintByDegreeProgram(DegreeProgram degreeProgram);
 	Roster();
 	~Roster();
-	//Getter/mutator method to retrieve a student;
+
 	Student getStudent(int index);
 
 private:
-	Student* classRosterArray[5]; //The array of pointers created to hold the data provided in the ¡°studentData Table¡± 	
+	Student* classRosterArray[5]; 
 	int lastIndex = -1;
 	const int numOfStudents = 5;
 };

@@ -4,7 +4,7 @@
 using std::string;
 
 class Student {
-private: //All variables are set to private because we use mutator methods to change indirectly
+private: 
 	string studentID, firstName, lastName, emailAddress;
 	int age;
 	int numberOfDays[3];
@@ -14,15 +14,17 @@ public:
 	Student(string sID, string fName, string lName, string eAddress, int aAge, int daysInCourse[], DegreeProgram degreeProgram);
 	Student();
 	~Student();
-	//Getter/mutator methods
+
 	string GetID();
 	string GetFirstName();
 	string GetLastName();
 	string GetEmailAddress();
+	
 	DegreeProgram GetDegreeProgram();
+	
 	int GetAge();
 	int *GetNumberOfDays();
-	//Setter/Accessor methods
+
 	void SetID(string ID);
 	void SetFirstName(string first);
 	void SetLastName(string last);
